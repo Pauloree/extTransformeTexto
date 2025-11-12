@@ -4,6 +4,17 @@
     "manifest_version": 3,
     "description": "Extensão para transformar seus textos em letras MAIÚSCULAS e minúsculas.",
     "action": {
-        "default_popup":"index.html"
+        "default_popup":"index.html",
+        "default_icon": {
+            "16": "icons/LogoVetorial-16px.png",
+            "48": "icons/LogoVetorial-48px.png",
+            "128": "icons/LogoVetorial-128px.png"
+        }
+    },
+    "icons": {
+        "16": "icons/LogoVetorial-16px.png",
+        "48": "icons/LogoVetorial-48px.png",
+        "128": "icons/LogoVetorial-128px.png",
+        "512": "icons/LogoVetorial-300px.png"
     }
 }

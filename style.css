@@ -8,13 +8,13 @@
     font-size: 12px;
 
     /*  */
-    border: solid 1px rgb(0, 0, 0);
+    
 }
 
 .container-pai {
     width: 200px;
     height: 200px;
-
+    border: solid 1px #4c4c4d;
     /* FlexBox */
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@
 
     /* FlexBox */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .btn {
@@ -46,3 +46,22 @@
 }
 
 /* Configuração do Cabeçalho, Resultado e Rodapé */
+.container-logo {
+    display: flex;
+    margin: 5px
+}
+
+.container-logo img {
+    margin-right:10px;
+}
+
+.resultado{
+    width: 160px;
+    height: 80px;
+    resize: none;
+}
+
+.rodape {
+    text-align: center;
+    color: #4c4c4d;
+}
