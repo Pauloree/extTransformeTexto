@@ -14,4 +14,10 @@ window.document.addEventListener( "DOMContentLoaded", function () {
         let inputText = document.getElementById("input-text").value
         document.getElementById("resultado").innerHTML = inputText[0].toUpperCase() + inputText.slice(1).toLowerCase()
     })
+
+    document.getElementById("btnLimpar").addEventListener("click", function () {
+        let inputText = document.getElementById("input-text").value
+        document.getElementById("resultado").innerHTML = ''
+        document.getElementById("input-text").value = ''
+    })
 }) 
