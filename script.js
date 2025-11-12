@@ -1,4 +1,5 @@
 /* Programa para manipular o DOM */
+
 window.document.addEventListener( "DOMContentLoaded", function () {
     document.getElementById("btnMaiuscula").addEventListener("click", function () {
         let inputText = document.getElementById("input-text").value
@@ -19,5 +20,10 @@ window.document.addEventListener( "DOMContentLoaded", function () {
         let inputText = document.getElementById("input-text").value
         document.getElementById("resultado").innerHTML = ''
         document.getElementById("input-text").value = ''
+    })
+
+    document.getElementById("btnCont").addEventListener("click", function () {
+        let inputText = document.getElementById("input-text").value
+        document.getElementById("resultado").innerHTML = `O texto possui ${inputText.length} caracteres.`
     })
 }) 
